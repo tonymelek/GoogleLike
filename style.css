@@ -51,23 +51,7 @@ main{
     outline: 0;
     font-size: 16pt;
 }
-@media only screen and (max-width: 768px) {
-    * {
-      font-size: 11pt;
-    }
-    .input_bar{
-        width:80vw;
-    }
-    #input_bar{
-        width:60vw;
-        padding: 0;
-        font-size: 12pt;
-    }
-    .lower_footer{
-        visibility: hidden;
-        display: none;
-    }
-}
+
 
 button{
     font-size: 12pt;
@@ -91,4 +75,24 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items:center;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    * {
+      font-size: 11pt;
+    }
+    .input_bar{
+        width:80vw;
+    }
+    #input_bar{
+        width:60vw;
+        padding: 0;
+        font-size: 12pt;
+    }
+    .lower_footer{
+        
+        display: none;
+      
+    }
 }
